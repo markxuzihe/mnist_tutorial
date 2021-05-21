@@ -1,24 +1,33 @@
-# mnist_tutorial
-A tutorial for MNIST handwritten digit classification using sklearn, PyTorch and Keras.
+pytorch
 
-# Code structure
-* [`numpy_matplotlib_sklearn.ipynb`](numpy_matplotlib_sklearn.ipynb): for numpy, matplotlib and sklearn.
-* [`pytorch.ipynb`](pytorch.ipynb): for pytorch.
-* [`keras.ipynb`](keras.ipynb): for keras.
-* Reference solution: (not published yet)
-    * [`numpy_matplotlib_sklearn_solution.ipynb`](numpy_matplotlib_sklearn_solution.ipynb)
-    * [`pytorch_solution.ipynb`](pytorch_solution.ipynb)
-    * [`keras_solution.ipynb`](keras_solution.ipynb)
+Q1:
+default parameters(with warning)
+Training accuracy: 97.43%
+Testing accuracy: 88.50%
 
-# Requirements
-Code tested on following environments, other version should also work:
-* linux system (ubuntu 16.04) 
-* python 3.6.3
-* numpy 1.13.3
-* matplotlib 2.1.0
-* sklearn 0.19.1
-* pytorch 0.4.1
-* keras 2.1.2
+max_iter = 1000
+Training accuracy: 97.48%
+Testing accuracy: 88.60%
 
-# For students from SJTU
-Please read [HEAR](EE369.md).
+Q2:
+Training accuracy: 81.75%
+Testing accuracy: 81.10%
+
+Q3:
+default parameters(with warning)
+Training accuracy: 98.02%
+Testing accuracy: 86.50%
+
+max_iter = 5000
+Training accuracy: 97.98%
+Testing accuracy: 86.30%
+
+Q4:
+Training accuracy: 95.78%
+Testing accuracy: 87.20%
+
+Q5:
+epoch 10
+Train Loss	 0.009824
+Train Acc	 0.995017
+Test Acc	 0.986800
